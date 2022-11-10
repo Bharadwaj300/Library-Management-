@@ -7,8 +7,29 @@
     height: 100px;
     width: 100px;
 } */
+body {
+    text-align: center;
+    color:white;
+    background: url("images/background.jpeg");
+    
+    background-position: 40% 0;
+    
+}
 
-#cards {
-    display: flex;
+#cards{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 3%;
+}
 
+
+#card{
+    color: black;
+    width: 18rem;
+    margin:1%;
+    border: 2%;
+    padding: 1%;
+    border-radius: 15%;
 }
